@@ -1,8 +1,8 @@
 <?php require_once './connection.php';
 
-$passed = htmlspecialchars($_GET["task"]);
+$delid = $_GET["idnum"];
 
-$sql = "INSERT INTO tasks(name) VALUES('$passed')";
+$sql = "DELETE FROM finished WHERE id=$delid";
 $result = mysqli_query($conn,$sql);
 
 // console.log("added $passed");
