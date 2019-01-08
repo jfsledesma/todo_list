@@ -31,7 +31,7 @@
 						<input id="task_input" class="input" type="text" placeholder="Add a task..." name="task_input">
 					</div>
 					<div class="control">
-						<button id="add_task" class="button">Add task</button>
+						<button id="add_task" class="button has-background-primary">Add task</button>
 					</div>
 				</div>
 			</form>
@@ -42,7 +42,7 @@
 		<div class="level-item">
 
 			<div id="the_list" class="panel">
-				<div class="panel-heading has-addons">
+				<div class="panel-heading has-background-dark has-text-light">
 					<div class="level">
 						<div class="level-item">
 							<h2 id="list_name">Your list</h2> 
@@ -50,7 +50,7 @@
 						</div>
 					</div>
 				</div>
-				<p class="panel-tabs">
+				<p class="panel-tabs has-background-light">
 					<a id="unfin_tab" class="is-active">Unfinished</a>
 					<a id="fin_tab">Finished</a>
 				</p>
