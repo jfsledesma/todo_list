@@ -1,6 +1,6 @@
 <?php
 
-$host = "localhost";
+$host = "db4free.net";
 $username = "jfsledesma";
 $password = "spongebob";
 $dbname = "todo_app_db_jfsl";
